@@ -1,0 +1,5 @@
+myenv/
+.vscode/
+geckodriver.log
+*.pyc
+db.sqlite3
