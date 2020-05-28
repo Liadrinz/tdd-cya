@@ -22,9 +22,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '+lsqy5qh^rg))z-*=@k4y*mhz5**#mx$c3=28r%x!zt4puqnn='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+TEMPLATE_DEBUG = DEBUG
+
+ALLOWED_HOSTS = ['todolist.liadrinz.cn', '175.24.45.175']
 
 
 # Application definition
