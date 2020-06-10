@@ -8,7 +8,8 @@
     <table id="id_list_table" class="table">
         {% for item in list.item_set.all %}
         <tr>
-            <td>{{forloop.counter}}: {{ item.text }}</td>
+		<td>{{forloop.counter}}: {{ item.text }}</td>
+		<td><a href="/lists/{{item.id}}/del_item">删除</a></td>
         </tr>
         {% endfor %}
     </table>
